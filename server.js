@@ -1,0 +1,5 @@
+const PORT = 3000;
+const express = require("express");
+const http = require("http");
+const { Server } = require("socket.io");
+const path = require("path");
