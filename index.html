@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Socket.IO Test</title>
+    <script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      #messages {
+        border: 1px solid #ccc;
+        padding: 10px;
+        height: 300px;
+        overflow-y: auto;
+        margin-bottom: 10px;
+      }
+      .message {
+        margin: 5px 0;
+        padding: 5px;
+        border-radius: 5px;
+      }
+      .server {
+        background-color: #e3f2fd;
+      }
+      .client {
+        background-color: #f5f5f5;
+      }
+      #messageInput {
+        width: 70%;
+        padding: 5px;
+      }
+      button {
+        padding: 5px 15px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Socket.IO Test</h1>
+    <div id="messages"></div>
+    <div>
+      <input
+        type="text"
+        id="messageInput"
+        placeholder="پیام خود را وارد کنید..."
+      />
+      <button onclick="sendMessage()">ارسال</button>
+    </div>
+
+    <script src="client.js"></script>
+  </body>
+</html>
