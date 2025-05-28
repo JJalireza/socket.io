@@ -1,2 +1,7 @@
 # socket.io
-send/get message with socket.io
+
+RUN:
+node server.js
+
+If you are using Docker, you can pull the image:
+docker pull italireza/message-socket
