@@ -4,7 +4,7 @@
 
 ---
 
-<h3>get source code and run :</h3>
+**get source code and run :**
 
 `git clone https://github.com/JJalireza/socket.io.git`
 
@@ -16,10 +16,10 @@
 
 ---
 
-<h3>If you are using Docker, you can pull the image :</h3>
+**If you are using Docker, you can pull the image :**
 
 `docker pull italireza/message-socket:1.0.2`
 
-<h3>docker run -d -p 3000:3000 italireza/message-socket:1.0.2</h3>
+`docker run -d -p 3000:3000 italireza/message-socket:1.0.2`
 
 ---
